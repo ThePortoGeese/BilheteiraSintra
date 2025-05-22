@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57A7F7B5-6B3D-46F1-805D-269BB8A86B2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VouMeSuicidar.My.MyApplication</StartupObject>
+    <RootNamespace>VouMeSuicidar</RootNamespace>
+    <AssemblyName>VouMeSuicidar</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VouMeSuicidar.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VouMeSuicidar.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtQuat.Designer.vb">
+      <DependentUpon>AtQuat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AtQuat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cart.Designer.vb">
+      <DependentUpon>cart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comprarBilh.Designer.vb">
+      <DependentUpon>comprarBilh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="comprarBilh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaProxima.Designer.vb">
+      <DependentUpon>consultaProxima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultaProxima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultarID.Designer.vb">
+      <DependentUpon>consultarID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultarID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaSubArea.Designer.vb">
+      <DependentUpon>consultaSubArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultaSubArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.vb">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AtQuat.resx">
+      <DependentUpon>AtQuat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cart.resx">
+      <DependentUpon>cart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comprarBilh.resx">
+      <DependentUpon>comprarBilh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaProxima.resx">
+      <DependentUpon>consultaProxima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultarID.resx">
+      <DependentUpon>consultarID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaSubArea.resx">
+      <DependentUpon>consultaSubArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parques2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Sintra_-_Palacio_da_Pena_%2820332995770%29_%28cropped2%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp13.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp12.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exp1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drop6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pret.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %2825%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de ecrã 2024-05-31 214229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sintraHome.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

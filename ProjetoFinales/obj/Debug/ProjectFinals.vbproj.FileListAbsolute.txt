@@ -1,0 +1,37 @@
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\bin\Debug\VouMeSuicidar.exe.config
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\bin\Debug\VouMeSuicidar.exe
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\bin\Debug\VouMeSuicidar.pdb
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\bin\Debug\VouMeSuicidar.xml
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\ProjectFinals.vbproj.AssemblyReference.cache
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.AtQuat.resources
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.cart.resources
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.comprarBilh.resources
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.consultaProxima.resources
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.consultarID.resources
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.consultaSubArea.resources
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.FrmMenu.resources
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.Resources.resources
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\ProjectFinals.vbproj.GenerateResource.cache
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\ProjectFinals.vbproj.CoreCompileInputs.cache
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.exe
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.xml
+C:\Users\HP  690-0047np\OneDrive - Colegio de Gaia\VouMeSuicidar\obj\Debug\VouMeSuicidar.pdb
+E:\ProjetoFinales\bin\Debug\VouMeSuicidar.exe.config
+E:\ProjetoFinales\bin\Debug\VouMeSuicidar.exe
+E:\ProjetoFinales\bin\Debug\VouMeSuicidar.pdb
+E:\ProjetoFinales\bin\Debug\VouMeSuicidar.xml
+E:\ProjetoFinales\obj\Debug\ProjectFinals.vbproj.AssemblyReference.cache
+E:\ProjetoFinales\obj\Debug\ProjectFinals.vbproj.SuggestedBindingRedirects.cache
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.AtQuat.resources
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.cart.resources
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.comprarBilh.resources
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.consultaProxima.resources
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.consultarID.resources
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.consultaSubArea.resources
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.FrmMenu.resources
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.Resources.resources
+E:\ProjetoFinales\obj\Debug\ProjectFinals.vbproj.GenerateResource.cache
+E:\ProjetoFinales\obj\Debug\ProjectFinals.vbproj.CoreCompileInputs.cache
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.exe
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.xml
+E:\ProjetoFinales\obj\Debug\VouMeSuicidar.pdb
